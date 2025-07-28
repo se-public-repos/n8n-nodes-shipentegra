@@ -1,0 +1,15 @@
+export enum OperationOptions {
+	CALCULATE_PRICE = "calculatePrice",
+	CREATE_MANUAL_ORDER = "createManualOrder",
+	CREATE_POST_ORDERS = "createPostOrders",
+	CREATE_SE_DHL_ECOMMERCE_LABEL = "createSeDhlEcommerceLabel",
+	CREATE_SE_FEDEX_LABEL = "createSeFedexLabel",
+	CREATE_SE_UPS_LABEL = "createSeUpsLabel",
+	CREATE_SE_USPS_LABEL = "createSeUspsLabel",
+	CREATE_SHIPENTEGRA_LABEL = "createShipentegraLabel",
+	FIND_CARGO_ACTIVITIES = "findCargoActivities",
+	FIND_ORDER = "findOrder",
+	FIND_ORDERS = "findOrders",
+	LIST_CARRIERS = "listCarriers",
+	UPDATE_ORDER_STATUS = "UpdateOrderStatus",
+}
