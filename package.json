@@ -1,18 +1,40 @@
 {
   "name": "n8n-nodes-shipentegra",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "description": "n8n nodes for seamless integration with the Shipentegra API.",
   "keywords": [
-    "n8n-community-node-package"
+    "n8n-community-node-package",
+    "shipentegra",
+    "shipentegraAPI"
   ],
   "license": "MIT",
+  "author": {
+    "name": "Cihan KAYA",
+    "email": "cihan.kaya@shipentegra.com"
+  },
+  "contributors": [
+    {
+      "name": "Fikret IŞILDAK",
+      "email": "isildakfikret@shipentegra.com"
+    },
+    {
+      "name": "Mustafa ÇOLAK",
+      "email": "mustafa@shipentegra.com"
+    }
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/shipentegra/n8n-nodes-shipentegra.git"
+    "url": "https://github.com/se-public-repos/n8n-nodes-shipentegra.git"
   },
+  "bugs": {
+    "url": "https://github.com/se-public-repos/n8n-nodes-shipentegra/issues"
+  },
+  "homepage": "https://github.com/se-public-repos/n8n-nodes-shipentegra#readme",
   "engines": {
     "node": ">=20.15"
   },
   "main": "index.js",
+  "type": "commonjs",
   "scripts": {
     "build": "npx rimraf dist && tsc && gulp build:icons",
     "dev": "tsc --watch",
@@ -20,6 +42,9 @@
     "lint": "eslint nodes credentials package.json",
     "lintfix": "eslint nodes credentials package.json --fix"
   },
+  "files": [
+    "dist"
+  ],
   "devDependencies": {
     "@typescript-eslint/parser": "~8.32.0",
     "eslint": "^8.57.0",
@@ -30,5 +55,9 @@
   },
   "peerDependencies": {
     "n8n-workflow": "*"
+  },
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
   }
 }
