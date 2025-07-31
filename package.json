@@ -45,6 +45,15 @@
   "files": [
     "dist"
   ],
+  "n8n": {
+    "n8nNodesApiVersion": 1,
+    "credentials": [
+      "dist/credentials/ShipentegraApi.credentials.js"
+    ],
+    "nodes": [
+      "dist/nodes/Shipentegra/Shipentegra.node.js"
+    ]
+  },
   "devDependencies": {
     "@typescript-eslint/parser": "~8.32.0",
     "eslint": "^8.57.0",
