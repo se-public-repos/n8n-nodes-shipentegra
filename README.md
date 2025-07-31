@@ -1,13 +1,13 @@
 # n8n-nodes-shipentegra
 
 <!-- Shields -->
-![Build Status](https://img.shields.io/github/actions/workflow/status/se-public-repos/n8n-nodes-shipentega/ci.yml?branch=main)
+![Build Status](https://img.shields.io/github/actions/workflow/status/se-public-repos/n8n-nodes-shipentegra/ci.yml?branch=main)
 ![npm Version](https://img.shields.io/npm/v/n8n-nodes-shipentegra)
-![License](https://img.shields.io/github/license/se-public-repos/n8n-nodes-shipentega)
-![Coverage](https://img.shields.io/codecov/c/github/se-public-repos/n8n-nodes-shipentega)
+![License](https://img.shields.io/github/license/se-public-repos/n8n-nodes-shipentegra)
+![Coverage](https://img.shields.io/codecov/c/github/se-public-repos/n8n-nodes-shipentegra)
 ![Downloads](https://img.shields.io/npm/dt/n8n-nodes-shipentegra)
-![Issues](https://img.shields.io/github/issues/se-public-repos/n8n-nodes-shipentega)
-![Last Commit](https://img.shields.io/github/last-commit/se-public-repos/n8n-nodes-shipentega)
+![Issues](https://img.shields.io/github/issues/se-public-repos/n8n-nodes-shipentegra)
+![Last Commit](https://img.shields.io/github/last-commit/se-public-repos/n8n-nodes-shipentegra)
 
 This is an n8n community node. It lets you use Shipentegra in your n8n workflows.
 
