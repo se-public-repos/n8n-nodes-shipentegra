@@ -49,6 +49,9 @@ export class ShipentegraApi implements ICredentialType {
 		const result = await this.helpers.httpRequest({
 			method: 'POST',
 			url: `https://publicapi.shipentegra.com/v1/auth/token`,
+			headers: {
+				'x-shipentegra-platform': 'N8N'
+			},
 			body: {
 				clientId: credentials.clientId,
 				clientSecret: credentials.clientSecret,
