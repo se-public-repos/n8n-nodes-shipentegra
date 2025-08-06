@@ -29,10 +29,7 @@
   "bugs": {
     "url": "https://github.com/se-public-repos/n8n-nodes-shipentegra/issues"
   },
-  "homepage": "https://github.com/se-public-repos/n8n-nodes-shipentegra#readme",
-  "engines": {
-    "node": ">=20.15"
-  },
+  "homepage": "https://shipentegra.com",
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
