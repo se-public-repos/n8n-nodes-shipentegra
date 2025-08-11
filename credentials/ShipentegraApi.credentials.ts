@@ -2,6 +2,7 @@ import type {
 	IAuthenticate,
 	Icon,
 	ICredentialDataDecryptedObject,
+	ICredentialTestRequest,
 	ICredentialType,
 	IHttpRequestHelper,
 	INodeProperties,
@@ -68,6 +69,14 @@ export class ShipentegraApi implements ICredentialType {
 			headers: {
 				Authorization: '=Bearer {{$credentials.accessToken}}',
 			}
+		},
+	};
+
+	test?: ICredentialTestRequest = {
+		request: {
+			baseURL: `https://publicapi.shipentegra.com/v1`,
+			url: '/users/carriers',
+			method: 'GET',
 		},
 	};
 }

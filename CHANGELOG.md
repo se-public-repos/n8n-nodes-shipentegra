@@ -1,5 +1,11 @@
 # n8n-nodes-shipentegra
 
+## 1.1.3
+
+### Patch Changes
+
+- chore: add test request for user carriers in Shipentegra API credentials
+
 ## 1.1.2
 
 ### Patch Changes
