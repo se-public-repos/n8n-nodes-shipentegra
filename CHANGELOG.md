@@ -1,5 +1,11 @@
 # n8n-nodes-shipentegra
 
+## 1.1.4
+
+### Patch Changes
+
+- fix
+
 ## 1.1.3
 
 ### Patch Changes
