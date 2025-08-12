@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-shipentegra",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "n8n nodes for seamless integration with the Shipentegra API.",
   "keywords": [
     "n8n-community-node-package",
