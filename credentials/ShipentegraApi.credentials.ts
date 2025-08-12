@@ -1,5 +1,5 @@
 import type {
-	IAuthenticate,
+	IAuthenticateGeneric,
 	Icon,
 	ICredentialDataDecryptedObject,
 	ICredentialTestRequest,
@@ -13,9 +13,9 @@ export class ShipentegraApi implements ICredentialType {
 
 	displayName: string = 'ShipEntegra API';
 
-	icon?: Icon = 'file:shipentegra.svg'
+	icon: Icon = 'file:shipentegra.svg'
 
-	documentationUrl?: string = 'https://docs.shipentegra.com';
+	documentationUrl: string = 'https://docs.shipentegra.com';
 
 	properties: INodeProperties[] = [
 		{
@@ -63,7 +63,7 @@ export class ShipentegraApi implements ICredentialType {
 	}
 
 
-	authenticate?: IAuthenticate = {
+	authenticate: IAuthenticateGeneric = {
 		type: 'generic',
 		properties: {
 			headers: {
@@ -72,7 +72,7 @@ export class ShipentegraApi implements ICredentialType {
 		},
 	};
 
-	test?: ICredentialTestRequest = {
+	test: ICredentialTestRequest = {
 		request: {
 			baseURL: `https://publicapi.shipentegra.com/v1`,
 			url: '/users/carriers',
