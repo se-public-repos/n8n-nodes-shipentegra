@@ -27,7 +27,3 @@ jobs:
 
       - name: Build project
         run: npm run build
-
-      # Uncomment the following if you add tests
-      # - name: Run tests
-      #   run: npm test
